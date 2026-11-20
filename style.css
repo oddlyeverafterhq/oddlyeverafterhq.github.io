@@ -1,0 +1,25 @@
+:root{--paper:#f5ecdc;--card:#fffaf1;--ink:#2a2420;--muted:#6d6158;--accent:#b03f1b;--accent-dark:#7d2c12;--line:#e6d7bf}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded","Nunito","Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+a{color:var(--accent)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;max-width:860px;margin:0 auto;padding:22px 20px}
+.brand{font-weight:800;font-size:20px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.top nav a{margin-left:18px;color:var(--ink);text-decoration:none;font-weight:600}
+.top nav a:hover,.top nav a[aria-current]{color:var(--accent)}
+main{max-width:860px;margin:0 auto;padding:0 20px 40px}
+.hero{padding:40px 0 32px}
+.kicker{margin:0 0 8px;font-size:14px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(34px,6vw,56px);line-height:1.08;margin:0 0 18px;letter-spacing:-.02em}
+.lead{font-size:20px;max-width:640px;margin:0 0 28px}
+.button{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:999px;box-shadow:0 3px 0 var(--accent-dark)}
+.button:hover{transform:translateY(1px);box-shadow:0 2px 0 var(--accent-dark)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 28px;margin:0 0 20px;box-shadow:0 2px 0 var(--line)}
+.card h2{margin:0 0 10px;font-size:24px;line-height:1.25}
+ul{padding-left:22px}
+li{margin:6px 0}
+.doc h1{font-size:40px;margin:16px 0 6px}
+.doc h2{font-size:22px;margin:32px 0 8px}
+.meta{color:var(--muted);margin:0 0 24px}
+footer{max-width:860px;margin:0 auto;padding:24px 20px 48px;color:var(--muted);font-size:15px;border-top:1px solid var(--line)}
+footer p{margin:4px 0}
